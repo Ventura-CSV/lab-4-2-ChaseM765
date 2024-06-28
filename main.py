@@ -1,10 +1,12 @@
 def main():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+
     total = 0
+    x = 0
+    for x in range(0,5):
+        num1 = int(input('Enter next value: '))
+        total += num1
+    print(total)
+
 
     ########################################
     # Do not delete the return statement
